@@ -1,0 +1,227 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #f5f5f5;
+}
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #333;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin: 0 20%;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 10% 0 30%;
+}
+.nav-links ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.nav-links ul li{
+    margin: 0 5px;
+}
+.nav-links a{
+    color: #333;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+.nav-links a:hover{
+    color: #F4C16E;
+}
+.btn{
+    display: inline-block;
+    padding: 10px 40px;
+    background-color: #F4C16E;
+    color: #000;
+    border: 1px solid #F4C16E;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+.btn:hover{
+    border: 1px solid #333;
+    background-color: transparent;
+    color: #333;
+}
+.section1{
+    background: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), 
+                                    url(img/bkg.jpeg) no-repeat center center;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+}
+.section1 h1{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.links a{
+    color: #333;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+.links a:hover{
+    color: #fff;
+}
+.section2{
+    display: flex;
+    align-items: center;
+    padding: 100px 0;
+}
+.images{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    margin: 0 50px;
+}
+.img1{
+    display: flex;
+    justify-content: center;
+    margin-top: -50px;
+}
+.img1 img{
+    width: 700px;
+    height: auto;
+    border-radius: 5px;
+    margin: 10px;
+}
+.img2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.img2 img{
+    width: 220px;
+    height: 120px;
+    border-radius: 5px;
+    margin: 10px;
+}
+.section2-txt{
+    display: flex;
+    flex-direction: column;
+}
+.txt1{
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    width: 500px;
+    border: 1px solid #F4C16E;
+    border-radius: 5px;
+    padding: 10px;
+    margin: -30px 10px 10px -20px;
+}
+.txt1 h2{
+    font-size: 2rem;
+    font-weight: 600;
+    color: #000;
+    letter-spacing: 2px;
+    padding: 10px 0;
+}
+.txt1 p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #333;
+    letter-spacing: 1px;
+    line-height: 30px;
+    padding: 5px 0;
+}
+hr{
+    border: 3px solid #F4C16E;
+    width: 100%;
+    margin: 10px 0;
+}
+.txt2{
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    width: 500px;
+    border: 1px solid #F4C16E;
+    border-radius: 5px;
+    padding: 5px 30px;
+    margin: 0px 10px 10px -20px;
+}
+.txt2 h2{
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #000;
+    letter-spacing: 2px;
+    padding: 5px 0;
+}
+.facilities{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    margin: 5px;
+}
+.facility{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin: 5px;
+}
+span{
+    border: 1px solid #F4C16E;
+    background: #F4C16E;
+    border-radius: 20px;
+    padding: 10px 20px 10px 20px;
+    margin: 10px 50px 10px 0;  
+    font-size: 16px;
+    font-weight: 500;
+    display: flex;
+}
+span i{
+    padding: auto;
+}
+span:hover{
+    background: transparent;
+    color: #000;
+    border: 1px solid #F4C16E;
+}
