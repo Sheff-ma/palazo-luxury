@@ -4,97 +4,186 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <title>PALAZO | Luxury Rooms</title>
+    <title>Luxury Rooms</title>
 </head>
 <body>
-    <!-- this is the section for the nav-bar -->
-    <section class="nav-bar">
-        <nav>
+    <div class="top-nav">
+        <div class="contact">
+            <span><i class="fa fa-phone"></i>+1 (234) 567 890 </span>
+            <span><i class="fa fa-envelope"></i>palazo@gmail.com</span>
+        </div>
+        <div class="social-icons">
+            <a href=""><i class="fab fa-facebook"></i></a>
+            <a href=""><i class="fab fa-twitter"></i></a>
+            <a href=""><i class="fab fa-youtube"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fab fa-linkedin"></i></a>
+        </div>
+    </div>
+
+    <div class="container">
+        <nav class="main-nav">
             <div class="logo">PALAZO</div>
-            <div class="nav-links" id="navLinks">
-                <!-- <i class="fas fa-times" onclick="hideMenu()"></i> -->
-                <ul>
-                    <li><a href="">Home</a></li>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Rooms</a></li>
-                    <li><a href="">Pages</a></li>
-                    <li><a href="">Contact</a></li>
-                </ul>
-            </div>
-            <a href="" class="btn">Book Now</a>
-            <!-- <i class="fas fa-bars" onclick="showMenu()"></i> -->
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Rooms</a></li>
+                <li><a href="#">Pages</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="" class="book-now">BOOK NOW</a></li>
+            </ul>
         </nav>
-    </section>
-    <section class="section1">
-            <div class="content">
-                <h1>LUXURY ROOM</h1>
-                <div class="links">
-                    <a href="">Home</a>
-                    <p>.</p>
-                    <a href="">Rooms</a>
-                </div>
-            </div>
-    </section>
-    <section class="section2">
-        <div class="images">
-            <div class="img1">
-                <img src="img/bkg.jpeg" alt="">
-            </div>
-            <div class="img2">
-                <img src="img/img1.jpeg" alt="">
-                <img src="img/img2.jpeg" alt="">
-                <img src="img/img3.jpeg" alt="">
+        <div class="section1">
+            <h1>Luxury Room</h1>
+            <div class="section1-txt">
+                <span>HOME</span>
+                <span><i class="fa fa-dot-circle"></i></span>
+                <span>ROOMS</span>
             </div>
         </div>
-        <div class="section2-txt">
-            <div class="txt1">
+    </div>
+
+    <section class="luxury-room">
+        <div class="room-images">
+            <img src="img/bkg.jpeg" alt="Luxury Room View" class="main-img">
+            <img class="sec-img" src="img/img1.jpeg" alt="Luxury Room Interior">
+            <img class="sec-img" src="img/img2.jpeg" alt="Luxury Pool">
+            <img class="sec-img" src="img/img3.jpeg" alt="Luxury Balcony">
+        </div>
+        
+
+        <div class="luxury-text">
+            <div class="room-details">
                 <h2>Luxury Room</h2>
                 <hr>
-                <p>
-                    Our Luxury Rooms are perfect for those who 
-                    want to experience the best of the best. 
-                    With a king-sized bed, a large bathroom, 
-                    and a private balcony, you'll feel like 
-                    royalty in our Luxury Rooms. Book now and 
-                    experience the ultimate in luxury.
+                <p><span>$120</span>/ night</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
                 </p>
-                <a href="" class="btn">Book Now</a>
+                <a class="book-now">Book Now</a>
             </div>
-            <div class="txt2">
-                <h2>Facilities</h2>
+            <div class="facilities">
+                <h3>Facilities</h3>
                 <hr>
-                <div class="facilities">
+                <div class="facility-grid">
                     <div class="facility">
-                        <span> 
-                            <i class="fa-solid fa-bed"></i>
-                            <p>2 Beds</p>
-                        </span>
-                        <span>
-                            <i class="fa-solid fa-bath"></i>
-                            <P>2 Baths</P>
-                        </span>
+                        <p><i class="fa fa-bed"></i> 2 Beds</p>
                     </div>
                     <div class="facility">
-                        <span>
-                            <i class="fa-solid fa-wifi"></i>
-                            <p>Free WIFI</p>
-                        </span>
-                        <span>
-                            <i class="fa-solid fa-mug-saucer"></i>
-                            <p>Breakfast</p>
-                        </span>
+                        <p><i class="fa fa-bath"></i> 2 Baths</p>
                     </div>
                     <div class="facility">
-                        <span>
-                            <i class="fa-solid fa-landmark"></i>
-                            <p>1200 Sqft</p>
-                        </span>
+                        <p><i class="fa fa-wifi"></i> Free WiFi</p>
+                    </div>
+                    <div class="facility">
+                        <p><i class="fa fa-chef"></i>Breakfast</p>
+                    </div>
+                    <div class="facility">
+                        <p><i class="fa fa-landmark"></i> 1200 sqft</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
+    <div class="section3">
+        <div class="text-one">
+            <h2>More Information</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+            </p>
+        </div>
+        <div class="cards">
+            <div class="card-content">
+                <i class="fa fa-search-location"></i>
+                <h3>Location</h3>
+                <p>4567 Morningview Lane</p>
+                <p>New York USA.</p>
+            </div>
+            <div class="card-content">
+                <i class="fa fa-phone"></i>
+                <h3>Phones</h3>
+                <p>+1 (234) 567 890</p>
+                <p>+0 (987) 654 321</p>
+            </div>
+            <div class="card-content">
+                <i class="fa fa-envelope-open"></i>
+                <h3>Emails</h3>
+                <p>palazo@gmail.com</p>
+                <p>example@gmail.com.</p>
+            </div>
+        </div>
+    </div>
+
+   <div class="section4">
+        <div class="first-half">
+            <img src="img/img1.jpeg" alt="">
+            <div class="overlaytext">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque nemo excepturi saepe illo vero quam rem est pariatur nihil ratione distinctio quo voluptatem, quod consectetur, voluptatum, consequuntur officia magni? Maiores!</p>
+            </div>
+        </div>
+        <div class="second-half">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam mollitia non, ex quis a totam unde cum quibusdam expedita aspernatur ea nesciunt eveniet at. Quia nesciunt officia voluptatem aliquid architecto.</p>
+        </div>
+   </div>
+   
+   <div class="footer">
+        <h2>Subscribe to our newsletter</h2>
+        <div class="search-container">
+            <i class="fa fa-search"></i>
+            <input type="text" placeholder="Your Email">
+        </div>
+        <h3>www.DownloadNewThemes.com</h3>
+        
+        <div class="footer-section">
+            <div class="part-one">
+                <h3>PALAZO</h3>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima corrupti eos debitis impedit at llam.</P>
+                <div class="p1-icons">
+                    <a href=""><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-twitter"></i></a>
+                    <a href=""><i class="fab fa-youtube"></i></a>
+                    <a href=""><i class="fab fa-instagram"></i></a>
+                    <a href=""><i class="fab fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="part-two">
+                <h3>Contacts</h3>
+                <p>
+                    <i class="fa fa-search-location"></i>
+                    457 morningview Lane, NY
+                </p>
+                <p>
+                    <i class="fa fa-phone"></i>
+                    +1 (234) 567 890
+                </p>
+                <p>
+                    <i class="fa fa-envelope"></i>
+                    palazo@gmail.com
+                </p>
+            </div>
+            <div class="part-three">
+                <h3>Quicklinks</h3>
+                <ul>
+                    <li>Home</li>
+                    <li>About</li>
+                    <li>Rooms</li>
+                    <li>Gallery</li>
+                    <li>Blog</li>
+                </ul>
+            </div>
+            <div class="part-four">
+                <h3>Support</h3>
+                <ul>
+                    <li>Support Desk</li>
+                    <li>Career</li>
+                    <li>FAQs</li>
+                    <li>Contact</li>
+                    <li>Privacy Policy</li>
+                </ul>
+            </div>
+        </div>
+   </div>
 </body>
 </html>
