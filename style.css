@@ -70,6 +70,19 @@ ul {
     font-weight: 500;
     transition: color 0.3s;
 }
+.hamburger {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+.close-menu {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
 .nav-links a:hover {
     color: #e8c37b;
 }
@@ -360,4 +373,162 @@ h3 {
 }
 .part-four ul li:hover{
     color: #e8c37b;
+}
+
+@media screen and (max-width: 1024px) {
+    .top-nav, .main-nav {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .logo {
+        margin: 0;
+        font-size: 2rem;
+    }
+    
+    .nav-links {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .luxury-room {
+        grid-template-columns: 1fr;
+        padding: 15px;
+    }
+
+    .room-images {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+
+    .main-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .section3 {
+        margin-left: 0;
+        grid-template-columns: 1fr;
+    }
+
+    .text-one {
+        width: 90%;
+        max-width: 600px;
+    }
+
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+
+    .section4 {
+        grid-template-columns: 1fr;
+    }
+
+    .first-half, .second-half {
+        width: 100%;
+    }
+
+    .footer-section {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .top-nav {
+        flex-direction: column;
+        align-items: center;
+        padding: 5px;
+    }
+    
+    .hamburger {
+        display: block;
+        margin: -43px 0 0 250px;
+    }
+    
+    .nav-links {
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100vh;
+        background: white;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: left 0.3s ease;
+    }
+    
+    .nav-links.show {
+        left: 0;
+    }
+    
+    .close-menu {
+        display: block;
+    }
+    
+    .contact span {
+        margin-right: 10px;
+        font-size: 12px;
+    }
+
+    .social-icons {
+        margin-top: 5px;
+    }
+
+    .main-nav {
+        flex-direction: column;
+        text-align: center;
+        padding: 10px;
+    }
+
+    .nav-links {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .luxury-room {
+        grid-template-columns: 1fr;
+        padding: 10px;
+    }
+
+    .room-images {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .main-img {
+        width: 100%;
+        height: auto;
+    }
+
+    .text-one {
+        width: 100%;
+        padding: 10px;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+
+    .cards {
+        grid-template-columns: repeat(1, 1fr);
+        gap: 15px;
+    }
+
+    .search-container {
+        width: 90%;
+    }
+
+    .footer-section {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .part-one, .part-two, .part-three, .part-four {
+        width: 90%;
+        max-width: 400px;
+        margin: 10px 0;
+    }
 }

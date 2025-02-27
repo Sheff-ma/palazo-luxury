@@ -25,6 +25,9 @@
     <div class="container">
         <nav class="main-nav">
             <div class="logo">PALAZO</div>
+            <div class="hamburger" onclick="toggleMenu()">
+                <i class="fa fa-bars"></i>
+            </div>
             <ul class="nav-links">
                 <li><a href="#">Home</a></li>
                 <li><a href="#">About</a></li>
@@ -32,6 +35,9 @@
                 <li><a href="#">Pages</a></li>
                 <li><a href="#">Contact</a></li>
                 <li><a href="" class="book-now">BOOK NOW</a></li>
+                <div class="close-menu" onclick="toggleMenu()">
+                    <i class="fa fa-times"></i>
+                </div>
             </ul>
         </nav>
         <div class="section1">
@@ -185,5 +191,7 @@
             </div>
         </div>
    </div>
+
+   <script src="script.js"></script>
 </body>
 </html>
