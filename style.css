@@ -445,7 +445,7 @@ h3 {
     
     .hamburger {
         display: block;
-        margin: -43px 0 0 250px;
+        /* margin: -43px 0 0 250px; */
     }
     
     .nav-links {
